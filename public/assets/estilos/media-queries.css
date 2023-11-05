@@ -1,0 +1,33 @@
+@media (max-width: 615px) {
+    .contenedor-navegacion{
+        flex-direction: column;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+   
+    .contenedor-servicios-principales {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: auto;
+    }
+    .estructura-servicios-principales{
+        flex-direction: column;
+    }
+    .capsula {
+        flex-direction: column;
+       
+    }
+    .columnas-pie{
+        flex-direction: column;
+    
+    }
+    .columnas{
+        flex-basis: 30%;
+        height: 100%;
+    }
+    .columnas-pie-dos{
+        flex-direction: column;
+    
+    }
+}

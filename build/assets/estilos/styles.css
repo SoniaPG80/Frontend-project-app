@@ -1,0 +1,334 @@
+/*** Body ***/
+body{
+    margin:0;
+    font-family:"Roboto",sans-serif;
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.5;
+    color:#787878;
+    background-color:#fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+        font-family: 'Roboto Slab', serif;
+}
+.texto-principal{
+    color:#787878;
+}
+.texto-secundario{
+    color: #26d48c;
+}
+.abc-1{
+    color:#000103;
+    font-size: 1.25rem;
+}
+.abc-2{
+    color:#787878;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/*** Botones ***/
+.boton-redondo {
+    color:#fff;
+    background-color:#26d48c;
+    border-color:#26d48c;
+    font-size: 1.25rem;
+    padding: 12px;
+    text-decoration: none;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+}
+    
+.boton-redondo:hover{
+    color:#000;
+    background-color:#47da9d;
+    border-color:#3cd898
+}
+
+/*** Navbar Start ***/
+.contenedor-navegacion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.navbar {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 10px;
+    color:#787878;
+    font-size: 18px;
+    outline: none;
+    text-decoration: none;
+    
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color:#000103;
+    letter-spacing: 4px;
+}
+.navbar-brand{
+    font-size: 20px;
+    text-decoration: none;
+}
+.telefono-lupa{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.telefono-lupa a{
+   color: #787878;
+}
+
+.position-texto-nav{
+    display: flex;
+    margin: 10px;
+}
+
+/*** Navbar End ***/
+
+/*** Encabezado Inicio ***/
+
+.contenedor-encabezado {
+    background: url(../imagenes/cabecera-servicios.jpg);
+    background-size: cover;
+    padding: 100px;
+    height: 260px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.contenedor-encabezado-sobremi {
+    background: url(../imagenes/cabecera-servicios.jpg);
+    height:  260px;
+    background-size: cover;
+   
+}
+
+.contenedor-encabezado-texto{
+    font-size: 28px;
+    color:#787878;
+    text-align: center;
+}
+
+/*** Encabezado Final ***/
+
+/*** Servicios Inicio ***/
+
+.contenedor-servicios-principales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.texto-servicios-principales{
+    text-align: center;
+}
+
+
+.estructura-servicios-principales{
+    display: flex;
+    padding: 60px;
+    margin: 10px;  
+    border: 5px;
+}
+.capsula {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 10px;
+    text-align: center;
+}
+.estructura-servicios-principales .servicios-item {
+    box-shadow: 0 0 60px rgba(0, 0, 0, .2);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px 0;
+    position: relative;
+}
+.servicios-item:hover{
+    background-color:#f6dfb8;
+    transition: .6s;
+}
+.servicios-contexto-icono i{
+    font-size: 7em;
+    color:#a09d9d;
+    margin-top: 10px;
+}
+/*** Servicios Final ***/
+
+/*** Foto y Texto sobre mi Inicio ***/
+.fotomia{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+
+.texto-sobremi{
+    justify-content: center;
+    padding: 10px;
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*** Foto Final ***/
+
+/*** Contacto Inicio ***/
+
+.contacto-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-grid-wrapper {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    font-family:"Roboto",sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 1.25em;
+    align-items: center;
+}
+.company-metadata-sidebar-wrapper > .company-details-wrapper i{
+    color:#26d48c;
+}
+
+.form > .form-group{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.form input {
+    font-size: 1.5em;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 3px solid #11122b;
+    width: 100%;
+    display: block;
+    transition: all 0.3s;
+}
+.form input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+    border-bottom: 3px solid #26d48c;
+}
+.form textarea {
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    border-radius: 3px;
+    border: 3px solid #11122b;
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    transition: all 0.3s;
+}
+.form textarea:focus {
+    outline: none;
+    box-shadow: 0 2rem 2rem rgba(0,0,0,0.1);
+    border: 3px solid #26d48c;
+}
+.form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder {
+    color: #11122b;
+}
+.form input:focus:-webkit-input-placeholder,.form textarea:focus:-webkit-input-placeholder {
+    color:transparent;
+}
+.form label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    color:black;
+    visibility: hidden;
+    opacity: 0;
+}
+.form input:focus + label,.form textarea:focus + label{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(1rem);
+}
+.boton-enviar{
+    display: flex;
+    justify-content: center;
+}
+
+/*** Contacto Final ***/
+
+/*** Pie de pagina Inicio ***/
+
+.contenedor-pie-de-pagina{
+    background-color: #ddd6d678;
+}
+.columnas-pie{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 10px;
+
+}
+.columnas-pie a {
+    text-decoration: none;
+    font-size: 16px;
+}
+.columnas{
+    width: 300px;
+    margin-right: 20px;
+    margin-left: 90px;
+    flex-basis: 100%;
+}
+.columnas >.columna{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.columnas a {
+    text-decoration: none;
+    font-size: 16px;
+}
+.columnas a:hover {
+    color:#000103;
+    letter-spacing: 2px;
+}
+.iconos-rrss-pie i{
+   font-size: 28px;
+   letter-spacing: 12px;
+}
+
+.columnas-pie-dos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 10px;
+}
+
+/*** Pie de pagina Final ***/
