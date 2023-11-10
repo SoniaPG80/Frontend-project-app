@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Indice from './paginas/Index';
+import Index from './paginas/Index';
 import Sobremi from './paginas/Sobremi';
 import Contacto from './paginas/Contacto';
 import Servicios from './paginas/Servicios';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Index from './paginas/Index';
+
 
 function App() {
   return (
